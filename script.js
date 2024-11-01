@@ -17,3 +17,7 @@ const g = function () {
 };
 g();
 f();
+const arr = ["python", "cpp", "javascript", "php"];
+for (const item of arr) {
+  console.log(item);
+}
